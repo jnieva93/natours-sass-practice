@@ -1,0 +1,21 @@
+// Sass Partial. Contains low-level basics. Resets, HTML and body elements styling
+
+/* MODERN CSS RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* Set the root font size */
+html {
+  /* Defines what 1rem is. Equals to 10px. Allows zooming */
+  font-size: 62.5%;
+}
+
+// body typography selectors went to typography partial
+body {
+  box-sizing: border-box;
+}

@@ -55,6 +55,15 @@
       background-color: $color-white;
     }
   }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
   
   &--animated {
     /* animation: name duration animation-timing-func delay */

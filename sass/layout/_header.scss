@@ -12,6 +12,10 @@
 
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
+  @include respond(phone) {
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
   // & copies the parent selector, in this case .header
   &__logo-box {
     position: absolute;
